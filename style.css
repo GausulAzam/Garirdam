@@ -1,0 +1,171 @@
+body{
+	background-color: #dddddd;
+}
+.navbar{
+	background: #f8dc81!important;
+	color: #0000!important;
+}
+
+.btn_nav_icon{
+	background: transparent!important;
+	border: 0px !important;
+	font-size: 18px;
+}
+.btn_nav_bn{
+	background: transparent!important;
+	border: 1px solid#007965 !important;
+	font-size: 14px;
+
+}
+.btn_nav_ad{
+	background: #007965!important;
+	font-size: 16px;
+	font-weight: bolder;
+	border: 0px;
+}
+.card_body_content{
+  line-height: 120%;
+}
+.btn_nav_phn{
+  background: #007965!important;
+  font-size: 15px;
+  font-weight: bolder;
+  border: 0px;
+  color: white!important;
+  padding: 5px;
+  width:120px;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none!important;
+}
+@media (max-width:992px) {    
+  ul.btn_nav_mainphn li, .hot_trands_car{
+    padding: 5px !important;
+  }
+}
+.btn_nav_postadd{
+	background: #ffcc29!important;
+	color:#58391c;
+	font-size: 18px;
+	font-weight: bolder;
+	border: 0px;
+}
+.btn_nav_postadd:hover{
+	background: #ffcc29!important;
+	color:#58391c;
+	font-size: 18px;
+	font-weight: bolder;
+	border: 0px;
+}
+
+.mainbody{
+	height: 100%;
+}
+/*Card Design Start*/
+.card-body h6 a{
+  color: #007965!important;
+  text-decoration: none !important;
+  font-weight: bolder;
+  text-align: center;
+}
+.card-body h6 a:hover{
+  color: #fc8621!important;
+  text-decoration: none !important;
+  text-shadow: 2px 2px black;
+}
+.card-body p a{
+  color: #007965!important;
+  text-decoration: none !important;
+  font-weight: bolder;
+}
+
+
+/*Card Design Start*/
+
+/*Sidebar Start*/
+.sidebar {
+  width: 100%;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #fff;
+  overflow-x: hidden;
+  padding-top: 20px;
+  font-size: 12px!important;
+  border-right:1px solid #f8dc81; 
+}
+
+/* Style the sidenav links and the dropdown button */
+.sidebar a{
+  padding: 5px 0 5px 10px;
+  display: block;
+  text-decoration: none;
+  font-size: 13px;
+  color: #000;
+  letter-spacing: .1px;
+  border: none;
+  background: none;
+  width: 100%;
+  text-align: left;
+  cursor: pointer;
+  outline: none;
+}
+
+/* On mouse-over */
+.sidebar a:hover{
+  color: black;
+  background-color: #fdffbc!important;
+  border-radius: 25px;
+  font-style: italic;
+}
+.sidebar a.active{
+  color: black;
+  background-color: #f8dc81!important;
+  border-radius: 25px;
+  font-style: italic;
+}
+/* Main content */
+.main {
+  margin-left: 200px; /* Same as the width of the sidenav */
+  font-size: 20px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+}
+
+
+/* Optional: Style the caret down icon */
+.fa-angle-right {
+  float: right;
+  padding-right: 8px;
+}
+
+/* Some media queries for responsiveness */
+@media screen and (max-height: 450px) {
+  .sidebar {padding-top: 15px;}
+  .sidebar a {font-size: 18px;}
+}
+
+/*sidebar End*/
+
+/*Footer start*/
+.footer_top{
+	background: #05091e;
+	border-top: 2px solid #f8dc81;
+	color: white;
+}
+
+.footer_bottom{
+	color: #fff;
+	background: #151b39;
+}
+.footer_top_right{
+	border-right: 1px solid!important;
+	color:white;
+}
+
+.btn_footer_icon:hover{
+	background: #f8dc81!important;
+}
+
+/*footer End*/
+
+
